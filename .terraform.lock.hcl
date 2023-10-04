@@ -6,6 +6,8 @@ provider "registry.terraform.io/ansible/ansible" {
   constraints = "1.0.0"
   hashes = [
     "h1:CcMq3k0P9uWNNnd47DX4/EBRA3exFGnOWH/hIcKMRL4=",
+    "h1:nGQAvKJey2CivXBrUPXJ9C2YchNuMeqFL5r0FHXCk6I=",
+    "h1:o6ftbFcpcGDPKX+/XSx0SBIzAx/PKOwQFWySDGQqcxU=",
     "zh:09dc68b36403bd178bb3acae7660d5aee05d1782c7e4659ac74edf2e47846b1e",
     "zh:0d6cc1db88645e654991ac6e72998713cbf0dc85d72ba5a39a50e5cb271ddad5",
     "zh:2a2fda4e94b7fc87cc6a20275ddb49e1fd9f210997cb7475f50575dc5319cb01",
