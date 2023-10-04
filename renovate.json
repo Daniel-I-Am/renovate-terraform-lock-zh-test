@@ -1,0 +1,43 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>renovate/renovate-config"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "every weekday"
+    ]
+  },
+  "reviewers": [
+    "Daniel-I-Am"
+  ],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 0,
+  "schedule": [
+      "on Saturday"
+  ],
+  "branchPrefix": "renovate-",
+  "packageRules": [
+    {
+      "matchManagers": ["terraform"],
+      "enabled": false
+    },
+    {
+      "matchManagers": ["terraform"],
+      "matchDepTypes": [
+          "required_provider",
+          "required_version",
+          "module"
+      ],
+      "enabled": true
+    },
+    {
+      "matchManagers": ["terraform"],
+      "matchUpdateTypes": [
+        "lockFileMaintenance"
+      ],
+      "enabled": true
+    }
+  ]
+}
