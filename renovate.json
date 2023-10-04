@@ -6,9 +6,6 @@
       "every weekday"
     ]
   },
-  "reviewers": [
-    "Daniel-I-Am"
-  ],
   "prConcurrentLimit": 3,
   "prHourlyLimit": 0,
   "schedule": [
