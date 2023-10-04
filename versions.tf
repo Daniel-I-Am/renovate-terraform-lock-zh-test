@@ -10,5 +10,8 @@ terraform {
     null = {
       source = "hashicorp/null"
     }
+    ansible = {
+      source = "ansible/ansible"
+    }
   }
 }
